@@ -33,3 +33,5 @@ const balanceInWei = await web3.eth.getBalance('0xd8dA6BF26964aF9D7eEd9e03E53415
 const balanceInEth = web3.utils.fromWei(balanceInWei, 'ether');
 
 console.log(balanceInEth);
+
+
